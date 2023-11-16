@@ -1,0 +1,153 @@
+
+.menu-superior{
+    display: flex;
+    text-decoration: none;
+    gap: 30%;
+   
+    color: var(--cor--dois);
+    background-color: var(--cor--um);
+    height: 100px;
+}
+
+.titulo-nome{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+
+    font-family: var(--font--dois);
+    font-size: 0.7rem;
+}
+
+.icones-posicao{
+    display: flex;
+    gap: 16%;
+}
+
+.icone{
+    text-decoration: none;
+    color: var(--cor--dois);
+}
+
+.links-menu{
+    display: flex;
+    align-items: center;
+
+    gap: 24%;
+    padding-right: 10%;
+}
+
+.posicao-icone{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    
+    flex-direction: column-reverse;
+    padding-bottom: 12%;
+}
+
+.link-nav{
+    text-decoration: none;
+
+    color: var(--cor--dois);
+    font-family: var(--font--um);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+@media(max-width: 1350px){
+
+    .menu-superior{
+        gap: 20%;
+    }
+}
+
+@media(max-width: 990px){
+
+    .menu-superior{
+        gap: 10%;
+    }
+
+    .link-nav{
+        font-size: 1.1rem;
+    }
+
+    .titulo-nome{
+        font-size: 0.6rem;
+    }
+
+}
+
+@media(max-width: 815px){
+
+     .menu-superior{
+        gap: 3%;
+    }
+
+    .links-menu{
+        gap: 10%;
+    }
+}
+
+@media(max-width: 672px){
+
+    .menu-superior{
+       gap: 2%;
+       font-size: 0.4rem;
+   }
+
+   .link-nav{
+    font-size: 1rem;
+   }
+
+   .links-menu{
+       gap: 10%;
+   }
+}
+
+@media(max-width: 622px){
+
+    .menu-superior{
+       gap: 2%;
+       font-size: 0.4rem;
+   }
+
+   .link-nav{
+    font-size: 0.9rem;
+   }
+
+   .links-menu{
+       gap: 8%;
+   }
+}
+
+@media(max-width: 600px){
+
+    .menu-superior{
+       gap: 2%;
+       font-size: 0.4rem;
+   }
+
+   .link-nav{
+    font-size: 0.8rem;
+   }
+
+   .links-menu{
+       gap: 6%;
+   }
+}
+
+@media(max-width: 590px){
+
+    .menu-superior{
+       gap: 1%;
+       font-size: 0.4rem;
+   }
+
+   .link-nav{
+    font-size: 0.8rem;
+   }
+
+   .links-menu{
+       gap: 6%;
+   }
+}

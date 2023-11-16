@@ -1,0 +1,136 @@
+.conteudo-curriculo{
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--cor--tres);
+}
+
+.posicao-conteudo{
+    display: flex;
+    justify-content: left;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.conteudo-download{
+    display: flex; 
+    align-items: center;
+
+    gap: 10px;
+    flex-direction: column; 
+}
+
+.caminho{
+    height: 100px;
+    width: 4px;
+    background-color: var(--cor--um);
+}
+
+.title-pdf{
+    color: var(--cor--um);
+    font-family: var(--font--dois);
+    font-size: 1.5rem;
+}
+
+.pdf-downloand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 254px;
+    height: 70px;
+    background-color: var(--cor--quatro);
+    border-radius: 10px;
+
+    font-family: var(--font--dois);
+    color: var(--cor--tres);
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title-web{
+    color: var(--cor--um);
+    font-family: var(--font--dois);
+    font-size: 1.5rem;
+}
+
+.educacao-position{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.educacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 420px;
+    height: 68px;
+    clip-path: polygon(0% 0%,100% 0%, 100% 100%, 10% 100%);
+
+    background-color: var(--cor--um);
+    color: var(--cor--tres);
+
+    font-size: 1.3rem;
+    font-family: var(--font--dois);
+}
+
+.educacao-topic{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    padding-top: 5%;
+    padding-right: 2%;
+    
+    color: var(--cor--um);
+    font-size: 1.5rem;
+    font-family: var(--font--um);
+}
+
+.habilidades-position{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding-top: 10%;
+}
+
+.habilidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 420px;
+    height: 68px;
+    clip-path: polygon(0% 0%, 100% 0%, 89% 100%, 0% 100%);
+
+    background-color: var(--cor--um);
+    color: var(--cor--tres);
+
+    font-size: 1.3rem;
+    font-family: var(--font--dois);
+}
+
+.habilidades-topic{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 15px;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+    
+    color: var(--cor--um);
+    font-size: 1.5rem;
+    font-family: var(--font--um);
+}

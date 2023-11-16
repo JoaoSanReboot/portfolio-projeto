@@ -1,0 +1,286 @@
+@keyframes anima{
+
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.01);
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('/fonts/GOTHICB.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cascadia Mono';
+    src: url('/fonts/Cascadia\ Mono\ PL\ Regular\ 400.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Agency FB';
+    src: url('/fonts/agency_fb.ttf') format('truetype');
+}
+
+:root{
+    --cor--um: #272829;
+    --cor--dois: #fff6e0;
+    --cor--tres: #d8d9da;
+    --cor--quatro: #61677a;
+    --cor--cinco: #b2954b;
+
+    --cor--branca: #ffffff;
+    --cor--preta: #000000;
+    --cor--sombra: #515354;
+
+    --font--um: 'Century Gothic';
+    --font--dois: 'Cascadia Mono';
+    --font--tres: 'Agency FB';
+}
+
+body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+    min-height: 100vh;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-um{
+    display: flex;
+    flex-direction: row;
+}
+
+.cont-dois{
+    display: flex;
+    flex-direction: row;
+}
+
+.video-settings{
+    width: 550px;
+    height: 350px;
+}
+
+.back-amarelo {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    height: 100vh;
+
+    background-color: rgba(221, 205, 58, 0.35);
+    float: left; 
+}
+
+.titulo-principal{
+    display: flex;
+    padding-top: 6%;
+    padding-left: 10%;
+    
+    color: var(--cor--preta);
+    font-family: var(--font--tres);
+    font-size: 4.6rem;
+    font-weight: bold;
+}
+
+.texto-chave{
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    color: var(--cor--preta);
+    font-family: var(--font--tres);
+    font-size: 1.8rem;
+}
+
+.texto-aviso{
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 10%;
+
+    color: var(--cor--preta);
+    font-family: var(--font--tres);
+    font-size: 1.8rem;
+}
+
+.btn-position{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.saiba-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 155px;
+    height: 58px;
+
+    text-decoration: none;
+    background-color: transparent;
+
+    border: 4px solid #b2954b;
+    border-radius: 40px;
+
+    color: var(--cor--cinco);
+    font-family: var(--font--tres);
+    font-size: 1.7rem;
+    font-weight: bold;
+    
+    cursor: pointer;
+}
+
+.back-azul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 50%;
+    height: 100vh;
+
+    background-color: rgba(42, 149, 221, 0.35);
+
+    float: left; 
+}
+
+.clear {
+    clear: both;
+}
+
+@media(max-width: 1330px){
+
+    .video-settings{
+        width: 450px;
+        height: 250px;
+    }
+
+    .cont-um{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont-dois{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .back-amarelo {
+        width: 100%;
+    }
+
+    .back-azul {
+        width: 100%;
+    }
+}
+
+@media(max-height: 600px){
+
+    .imagem-painel{
+        width: 250px;
+        height: 400px;
+    }
+}
+
+@media(max-height: 570px){
+
+    .btn-position{
+        display: flex;
+        padding-left: 10%;
+        padding-top: 1%;
+    }
+}
+
+@media(max-height: 520px){
+
+    .texto-chave{
+        font-size: 1.4rem;
+    }
+    
+    .texto-aviso{
+        padding-top: 2%;
+        font-size: 1.4rem;
+    }
+
+    .titulo-principal{
+        padding-top: 2%;
+        font-size: 4rem;
+    }
+
+    .saiba-btn{
+        width: 100px;
+        height: 38px;
+
+        font-size: 1.2rem;
+        border: 2px solid #b2954b;
+    }
+}
+
+@media(max-height: 426px){
+
+    .texto-chave{
+        font-size: 1rem;
+    }
+    
+    .texto-aviso{
+        padding-top: 1%;
+        font-size: 1rem;
+    }
+
+    .titulo-principal{
+        padding-top: 1%;
+        font-size: 2.5rem;
+    }
+
+    .imagem-painel{
+        width: 150px;
+        height: 280px;
+    }
+
+    .video-settings{
+        width: 320px;
+        height: 200px;
+    }
+}
+
+@media(max-height: 295px){
+    .imagem-painel{
+        width: 100px;
+        height: 200px;
+    }
+
+    .texto-chave{
+        padding-top: 1%;
+        font-size: 1rem;
+    }
+    
+    .texto-aviso{
+        padding-top: 1%;
+        font-size: 1rem;
+    }
+
+    .titulo-principal{
+        padding-top: 1%;
+        font-size: 1.2rem;
+    }
+
+    .video-settings{
+        width: 220px;
+        height: 100px;
+    }
+
+}
