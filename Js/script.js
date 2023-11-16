@@ -1,12 +1,11 @@
 document.getElementById("link-pdf").addEventListener("click", function(event) {
   
-    var pdfPath = "/pdf/joao-curriculo.pdf";
+    var pdfPath = "/pdf/Joao-Curriculo.pdf";
     
     var link = document.createElement("a");
     link.href = pdfPath;
-    link.download = "joao-curriculo.pdf"; 
+    link.download = "Joao-Curriculo.pdf"; 
     
     link.click();
     event.preventDefault();
 });
-
