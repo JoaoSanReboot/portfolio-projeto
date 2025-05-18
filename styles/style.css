@@ -76,6 +76,7 @@ body{
     padding-top: 2%;
 
     border-color: var(--cor--branca);
+    background-color: var(--cor--branca);
 
     border-bottom: 30px solid var(--cor--branca);
     border-top: 10px solid var(--cor--branca);
