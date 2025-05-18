@@ -7,6 +7,8 @@
     color: var(--cor--dois);
     background-color: var(--cor--um);
     height: 100px;
+    position: relative;
+    z-index: 1;
 }
 
 .titulo-nome{
@@ -16,16 +18,19 @@
 
     font-family: var(--font--dois);
     font-size: 0.7rem;
+    z-index: 1;
 }
 
 .icones-posicao{
     display: flex;
     gap: 16%;
+    z-index: 1;
 }
 
 .icone{
     text-decoration: none;
     color: var(--cor--dois);
+    z-index: 1;
 }
 
 .links-menu{
@@ -34,6 +39,7 @@
 
     gap: 24%;
     padding-right: 10%;
+    z-index: 1;
 }
 
 .posicao-icone{
@@ -43,6 +49,7 @@
     
     flex-direction: column-reverse;
     padding-bottom: 12%;
+    z-index: 1;
 }
 
 .link-nav{
@@ -52,6 +59,7 @@
     font-family: var(--font--um);
     font-size: 1.2rem;
     font-weight: 900;
+    z-index: 1;
 }
 
 @media(max-width: 1350px){
