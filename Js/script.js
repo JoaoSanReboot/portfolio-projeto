@@ -1,6 +1,6 @@
 document.getElementById("link-pdf").addEventListener("click", function(event) {
   
-    var pdfPath = "/pdf/CurriculoJoaoPedro.pdf";
+    var pdfPath = "/pdf/CurriculoJP.pdf";
     
     var link = document.createElement("a");
     link.href = pdfPath;
